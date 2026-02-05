@@ -18,9 +18,9 @@ Prediction → Visualization
 Author : Shreyansh Saurabh
 """
 
-!pip install torch torchvision torchaudio
-!pip install torch-geometric
-!pip install geopandas shapely networkx pandas numpy matplotlib osmnx
+#!pip install torch torchvision torchaudio
+#!pip install torch-geometric
+#!pip install geopandas shapely networkx pandas numpy matplotlib osmnx
 
 import pandas as pd
 import geopandas as gpd
@@ -203,16 +203,6 @@ for epoch in range(50):
 
     if epoch % 10 == 0:
         print(epoch, loss.item())
-
-"""
-Predicts pollution risk
-"""
-
-model.eval()
-pred = model(data)
-prob = torch.softmax(pred, dim=1)
-
-fail_prob = prob[:,1].detach().numpy()
 
 """
 Predicts pollution risk

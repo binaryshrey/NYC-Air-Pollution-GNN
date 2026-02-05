@@ -84,14 +84,21 @@ Framework: - PyTorch
 ### 1. Pollution Measurement Map
 
 Shows raw EPA monitoring data across NYC.
+![raw](https://raw.githubusercontent.com/binaryshrey/NYC-Air-Pollution-GNN/refs/heads/main/assets/image.png)
 
 ### 2. Pollution Distribution Histogram
 
 Shows distribution of PM2.5 values across infrastructure nodes.
+![PM2.5](https://raw.githubusercontent.com/binaryshrey/NYC-Air-Pollution-GNN/refs/heads/main/assets/image1.png)
+
+### 3. GNN Predicted Pollution Risk Distribution
+
+Shows predicted high-risk pollution zones across the NYC road network.
+![rpredictedw](https://raw.githubusercontent.com/binaryshrey/NYC-Air-Pollution-GNN/refs/heads/main/assets/image2.png)
 
 ---
 
-## 📈 Example Model Output Interpretation
+## Example Model Output Interpretation
 
 Each node prediction:
 
