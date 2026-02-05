@@ -1,4 +1,5 @@
-# NYC Urban Air Pollution Spatial Prediction Using GNN
+# NYC Urban Air Pollution Spatial Prediction Using GNN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/binaryshrey/NYC-Air-Pollution-GNN/blob/main/NYC_air_pollution_gnn.ipynb)
+
 
 ## Project Overview
 
